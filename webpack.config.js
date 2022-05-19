@@ -14,6 +14,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'docs'),
+    publicPath: '/',
   },
   plugins: [new HtmlWebpackPlugin({
     template: path.resolve(__dirname, 'src', 'index.html'),
