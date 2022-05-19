@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+button {
+  width: 33%;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 169px;
+  min-height: 204px;
+}
