@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "jsdom": "^19.0.0",
+    "lodash": "^4.17.21",
+    "webpack-cli": "^4.9.2"
+  },
+  "name": "leaderboard-1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start":"webpack serve --open"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amklass11/LeaderBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amklass11/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/amklass11/LeaderBoard#readme"
+}
