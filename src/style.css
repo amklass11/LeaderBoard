@@ -24,3 +24,7 @@ button {
   min-width: 169px;
   min-height: 204px;
 }
+
+body {
+  background-color: gold;
+}
